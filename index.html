@@ -43,14 +43,16 @@
     All agents live in a world that resembles a prison. During a round of gameplay, prisoners and guards start at random locations around the prison field. Prisoners have a goal of getting to the destination zone and from there back to the origin zone. If a prisoner makes it to the destination zone a point will be scored. Likewise, if they make it back to the origin zone a point will be scored. Prisoners can score again and again by making alternating visits to opposite origin/destination zones without getting tagged. <p></p>Guards have the goal of tagging prisoners. They are constantly patroling the area and are looking to chase after prisoners. There are multiple resoruces around the field representing cash and drinks. If a prisoner runs over cash they obtain one dollar in cash. If they run over a drink they obtain one drink. If a prisoner has more than two dollars in cash than they can bribe a guard. If they bribe a guard, one dollar will be taken from their cash pile. Drinks help prisoners survive turret attacks.</p><p> If a turret bullet hits a player, then the player loses one health. If a player has no drinks left and gets hit by a bullet, then they navigate to the out of bounds zone. There are safe zones all over the map where guards can not enter. However, turrets can shoot into the safe zones. Here, prisoners can hide worry free from the guards. Once all players are out of bounds, the game restarts.  </p>
 
     <p>The map looks as follows:</p>
-    <center><img src="images/PB.png"></center>
+    <center><img src="images/PB1.png"></center>
     <ul>
+    <li><p><font color="pink">Score</font></p></li>
     <li><p><font color="brown">Turrets</font></p></li>
     <li><p><font color="green">Safety Zones</font></p></li>
     <li><p><font color="orange">Origin Zone</font></p></li>
     <li><p><font color="#CCCC00">Destination Zone</font></p></li>
     <li><p><font color="red">Resources: cash and drinks</font></p></li>
     <li><p><font color="purple">Out of Bounds</font></p></li>
+
     </ul>
 
     <p>Additionally, there is some information on the HUD. On the left side displays the states the guards and turrets are in. These can be PATROL, CHASE, INVESTIGATE, IDLE, or SHOOT. On the right there is the current score as well as the prisoner states which can be GOAL, PRISON, HIDE, PICKUP, or OOB. Each states has a respective color for clear indication of the current state the player is in.</p>
